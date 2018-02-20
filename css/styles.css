@@ -1,0 +1,133 @@
+* {
+   outline: 1px solid red !important;
+}
+
+/*
+Block elements will have padding and
+border included in the element's
+total width and height
+*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family:
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+}
+
+/*
+Make HTML 5 elements display
+block-level for consistent styling
+*/
+header,
+section,
+footer,
+aside,
+nav,
+main,
+article,
+figure,
+figcaption {
+    display: block;
+}
+
+/*
+Prevent images and other objects
+from overflowing parent
+*/
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
+
+body {
+  color: #424242;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+/* ========== GLOBAL CLASSES ========== */
+.contain-960 {
+  max-width: 960px;  /* set to 960px or 1200px */
+  margin: 0 auto;
+}
+
+.contain-1200 {
+  max-width: 1200px;  /* set to 960px or 1200px */
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
+  border-radius: .375rem;
+  overflow: hidden;
+  -webkit-transition: box-shadow 2s; /* Safari */
+  transition: box-shadow .3s;
+}
+
+.card:hover {
+  box-shadow:  1px 1px 7px 0 rgba(46,61,73,0.2);
+}
+
+.shadow {
+  box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
+  overflow: hidden;
+  -webkit-transition: box-shadow 2s; /* Safari */
+  transition: box-shadow .3s;
+}
+
+/* ========== COLORS ========== */
+.blue {
+  color: #34d4fe
+}
+
+.blue-background {
+  background-color: #34d4fe
+}
+
+/* ========== GENERAL STYLES ========== */
+
+
+
+
+
+
+
+
+
+/* ========== DESKTOP  ========== */
+
+
+
+
+
+
+
+/* ========== TABLET  ========== */
+
+
+
+
+
+
+/* ========== MOBILE  ========== */
