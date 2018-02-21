@@ -8,8 +8,11 @@
     <meta name="description" content="A memory game">
     <meta name="author" content="Nick Hericks">
 
-    <link rel="stylesheet" href="//normalize-css.googlecode.com/svn/trunk/normalize.css">
+    <!-- <link rel="stylesheet" href="//normalize-css.googlecode.com/svn/trunk/normalize.css"> -->
     <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 
     <!-- add favicon -->
     <!-- .svg, .png or .ico images are recommended -->
@@ -22,36 +25,130 @@
   </head>
   <body>
     <div class="page">
-      <header>
-
-
-        <nav>
-        </nav>
-
-
+      <header class="contain-960">
+        <h1>elb safari</h1>
+        <h2>a memory game</h2>
       </header>
-      <main>
-        <section>
 
+      <main class="contain-700">
+        <!-- score and refresh -->
+        <section id="scoreboard-container">
+          <div class="scoreboard-item">
+            <p>
+              <span id="star-rating"></span><span id="move-count"></span> Moves
+            </p>
+          </div>
+          <div class="scoreboard-item">
+            <p>
+              Timer: <span id="timer"></span>
+            </p>
+          </div>
+          <div id="refresh-game" class="scoreboard-item">
+            <p>
+              <span>Refresh game</span>
+            </p>
+          </div>
+        </section>
+
+
+        <ul id="box" class="shadow">
+          <li class="card">
+            <div class="front">Front</div>
+            <div class="back">Back</div>
+          </li>
+          <li class="card">
+            <div class="front">Front</div>
+            <div class="back">Back</div>
+          </li>
+          <li class="card">
+            <div class="front">Front</div>
+            <div class="back">Back</div>
+          </li>
+          <li class="card">
+            <div class="front">Front</div>
+            <div class="back">Back</div>
+          </li>
+          <li class="card">
+            <div class="front">Front</div>
+            <div class="back">Back</div>
+          </li>
+          <li class="card">
+            <div class="front">Front</div>
+            <div class="back">Back</div>
+          </li>
+          <li class="card">
+            <div class="front">Front</div>
+            <div class="back">Back</div>
+          </li>
+          <li class="card">
+            <div class="front">Front</div>
+            <div class="back">Back</div>
+          </li>
+          <li class="card">
+            <div class="front">Front</div>
+            <div class="back">Back</div>
+          </li>
+          <li class="card">
+            <div class="front">Front</div>
+            <div class="back">Back</div>
+          </li>
+          <li class="card">
+            <div class="front">Front</div>
+            <div class="back">Back</div>
+          </li>
+          <li class="card">
+            <div class="front">Front</div>
+            <div class="back">Back</div>
+          </li>
+          <li class="card">
+            <div class="front">Front</div>
+            <div class="back">Back</div>
+          </li>
+          <li class="card">
+            <div class="front">Front</div>
+            <div class="back">Back</div>
+          </li>
+          <li class="card">
+            <div class="front">Front</div>
+            <div class="back">Back</div>
+          </li>
+          <li class="card">
+            <div class="front">Check for wrong match</div>
+            <div class="back">fdhsjkfldhfs</div>
+          </li>
+        </ul>
 
 
 
         </section>
       </main>
+
       <footer>
-
-
-
-        <!-- Automatically updated footer from http://updateyourfooter.com/ -->
-        <br>// built by
-        <a class="bold" target="_blank" href="http://nickhericks.com/">Nick Hericks</a>
+        <p>
+          // built by <a class="bold" target="_blank" href="http://nickhericks.com/">Nick Hericks</a>
+        </p>
       </footer>
 
-      <script
-        src="https://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <!-- <script
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous">
+      </script> -->
+      <!-- <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous">
       </script>
+      <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous">
+      </script> -->
+
       <script src="js/app.js"></script>
     </div>
   </body>
