@@ -8,11 +8,7 @@
     <meta name="description" content="A memory game">
     <meta name="author" content="Nick Hericks">
 
-    <!-- <link rel="stylesheet" href="//normalize-css.googlecode.com/svn/trunk/normalize.css"> -->
     <link rel="stylesheet" href="css/styles.css">
-
-    <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 
     <!-- add favicon -->
     <!-- .svg, .png or .ico images are recommended -->
@@ -26,7 +22,7 @@
   <body>
     <div class="page">
       <header class="contain-960">
-        <h1>elb safari</h1>
+        <h1>elbSafari</h1>
         <h2>a memory game</h2>
       </header>
 
@@ -35,120 +31,117 @@
         <section id="scoreboard-container">
           <div class="scoreboard-item">
             <p>
-              <span id="star-rating"></span><span id="move-count"></span> Moves
+              <span id="moves">0</span> Moves<br>
+              <span id="star-rating"></span>
             </p>
           </div>
           <div class="scoreboard-item">
             <p>
-              Timer: <span id="timer"></span>
+              Timer<br><span id="timer">0</span> seconds
             </p>
           </div>
-          <div id="refresh-game" class="scoreboard-item">
+          <div id="refresh" class="scoreboard-item">
             <p>
-              <span>Refresh game</span>
+              <span class="refresh-btn">restart</span>
             </p>
           </div>
         </section>
 
-
+        <!-- card grid -->
         <ul id="box" class="shadow">
           <li class="card">
-            <div class="front">Front</div>
-            <div class="back">Back</div>
+            <div class="front"></div>
+            <div class="back">empty</div>
           </li>
           <li class="card">
-            <div class="front">Front</div>
-            <div class="back">Back</div>
+            <div class="front"></div>
+            <div class="back">empty</div>
           </li>
           <li class="card">
-            <div class="front">Front</div>
-            <div class="back">Back</div>
+            <div class="front"></div>
+            <div class="back">empty</div>
           </li>
           <li class="card">
-            <div class="front">Front</div>
-            <div class="back">Back</div>
+            <div class="front"></div>
+            <div class="back">empty</div>
           </li>
           <li class="card">
-            <div class="front">Front</div>
-            <div class="back">Back</div>
+            <div class="front"></div>
+            <div class="back">empty</div>
           </li>
           <li class="card">
-            <div class="front">Front</div>
-            <div class="back">Back</div>
+            <div class="front"></div>
+            <div class="back">empty</div>
           </li>
           <li class="card">
-            <div class="front">Front</div>
-            <div class="back">Back</div>
+            <div class="front"></div>
+            <div class="back">empty</div>
           </li>
           <li class="card">
-            <div class="front">Front</div>
-            <div class="back">Back</div>
+            <div class="front"></div>
+            <div class="back">empty</div>
           </li>
           <li class="card">
-            <div class="front">Front</div>
-            <div class="back">Back</div>
+            <div class="front"></div>
+            <div class="back">empty</div>
           </li>
           <li class="card">
-            <div class="front">Front</div>
-            <div class="back">Back</div>
+            <div class="front"></div>
+            <div class="back">empty</div>
           </li>
           <li class="card">
-            <div class="front">Front</div>
-            <div class="back">Back</div>
+            <div class="front"></div>
+            <div class="back">empty</div>
           </li>
           <li class="card">
-            <div class="front">Front</div>
-            <div class="back">Back</div>
+            <div class="front"></div>
+            <div class="back">empty</div>
           </li>
           <li class="card">
-            <div class="front">Front</div>
-            <div class="back">Back</div>
+            <div class="front"></div>
+            <div class="back">empty</div>
           </li>
           <li class="card">
-            <div class="front">Front</div>
-            <div class="back">Back</div>
+            <div class="front"></div>
+            <div class="back">empty</div>
           </li>
           <li class="card">
-            <div class="front">Front</div>
-            <div class="back">Back</div>
+            <div class="front"></div>
+            <div class="back">empty</div>
           </li>
           <li class="card">
-            <div class="front">Check for wrong match</div>
-            <div class="back">fdhsjkfldhfs</div>
+            <div class="front"></div>
+            <div class="back">empty</div>
           </li>
         </ul>
 
-
-
-        </section>
+        <!-- game result overlay -->
+        <div id="result-alert" class="shadow">
+          <div class="result-message contain-450">
+            <h2 id="result-intro"></h2>
+            <img id="lego-face" src="" alt="happy lego">
+            <h1 id="result-header"></h1>
+            <div class="stats">
+              <p id="score-stars">
+              </p>
+              <p>
+                Number of moves: <span id="score-moves"></span>
+              </p>
+              <p>
+                Time: <span id="score-time"></span> seconds
+              </p>
+            </div>
+            <div id="restart">
+              <p id="retry-button"></p>
+            </div>
+          </div>
+        </div>
       </main>
-
       <footer>
         <p>
           // built by <a class="bold" target="_blank" href="http://nickhericks.com/">Nick Hericks</a>
         </p>
       </footer>
-
-
-
-      <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <!-- <script
-        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous">
-      </script> -->
-      <!-- <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous">
-      </script>
-      <script
-        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous">
-      </script> -->
-
       <script src="js/app.js"></script>
     </div>
   </body>
