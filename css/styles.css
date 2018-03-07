@@ -251,7 +251,8 @@ footer {
 
 /* ========== MOBILE  ========== */
 @media screen and (max-width: 350px) {
-  .card .back {
+  .card .back,
+  .result-message {
     font-size: .75rem;
   }
 }
