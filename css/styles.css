@@ -254,4 +254,6 @@ footer {
   .card .back {
     font-size: .75rem;
   }
+   #retry-button {
+      font-size: .75rem;
 }
