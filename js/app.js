@@ -82,7 +82,7 @@ function newGame() {
 function youWin() {
   clearInterval(timeCounter);
   legoFace.setAttribute('src', 'images/lego-happy.png');
-  resultIntro.textContent = 'Congrautulations...';
+  resultIntro.textContent = 'Congratulations...';
   resultHeader.textContent = 'You won!';
   scoreStars.textContent = starRating.textContent;
   scoreMoves.textContent = totalCardsClicked;
