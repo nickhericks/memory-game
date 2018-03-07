@@ -17,11 +17,12 @@ A star rating system is displayed and is based on the number of moves the player
 
 ## Todos
 
+* Fix move counter to iterate on card sets (2 cards) clicked instead of each card clicked
 * Animate card flip
 * Swap text on card backs for photos
 * Track and display number of wrong guesses
 * Track and display % of guesses right
-* Give point system (both stars and points)
+* Create numerical scoring system that includes both stars and time
 
 ## Credits and acknowledgements
 
