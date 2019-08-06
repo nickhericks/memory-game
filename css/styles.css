@@ -55,6 +55,7 @@ body {
   -webkit-font-smoothing: antialiased;
   margin: 0;
   padding: 0;
+  background-image: linear-gradient(to bottom right, #84fab0, #FACF5A, #F95959);
 }
 
 /* ========== GLOBAL CLASSES ========== */
@@ -240,6 +241,7 @@ footer {
   color: white;
   background-color: #202f3a;
   text-align: center;
+
 }
 
 /* ========== TABLET  ========== */

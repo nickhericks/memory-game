@@ -7,6 +7,15 @@ This project is part of Udacity's Front End Web Developer nanodegree program. De
 
 This game is based on a classic style memory card game.
 
+
+## View project
+ :mag: Live version available at [nickhericks.github.io/memory-game/](https://nickhericks.github.io/memory-game/)
+
+<br><br>
+
+<img src="https://res.cloudinary.com/dtqevfsxh/image/upload/v1540559469/portfolio/elb3_screenshot_1200.png" width="899">
+
+
 ## How to play
 
 A player clicks/taps cards to flip them over. If they match they turn green and remain. If the cards do not match, then the cards flip back over face down. The player wins when all cards are matched. The player loses if all cards are not matched in less than 40 moves.
