@@ -9,7 +9,7 @@ This game is based on a classic style memory card game.
 
 
 ## View project
- :mag: Live version available at [nickhericks.github.io/memory-game/](https://nickhericks.github.io/memory-game/)
+ :mag: Live version available at [nickhericks.com/memory/](https://nickhericks.com/memory/)
 
 <br><br>
 
